@@ -1,0 +1,73 @@
+<html>
+    <body>
+         <!--Form-->
+         <br>
+         <h1>Form</h1>
+         <form enctype="multipart/form-data" method="post">
+             <p>
+                 <label for="userName">UserName : </label>
+                 <input type="text" id="userName" name="userName" placeholder="Enter your UserName..." maxlength="15" minlength="6" required>
+             </p>
+             <p>
+                 <label for="mailid">Email : </label>
+                 <input type="email" id="mailid" name="mailid" placeholder="Enter your email id...">
+             </p>
+             <p>
+                 <label for="age">Age : </label>
+                 <input type="number" id="age" name="age" placeholder="Enter your age..." min="18" max="100">
+             </p>
+             <p>
+                 <label for="gender">Choose an gender : </label>
+                 <input type="radio" id="gender" name="gender">Male
+                 <input type="radio" id="gender" name="gender">Female 
+             </p>
+             <p>
+                 <label for="dob">Select an Date of Birth : </label>
+                 <input type="date" id="dob" name="dob">
+             </p>
+             <p>
+                 <label for="course">Choose an course : </label>
+                 <input type="checkbox" id="course" name="course[]" value="html">HTML     
+                 <input type="checkbox" id="course" name="course[]" value="css">CSS 
+                 <input type="checkbox" id="course" name="course[]" value="c#">C# 
+             </p>
+             <p>
+                 <label for="department">Select an department : </label>
+                 <select id="department" name="department" >
+                     <option value="">Select</option>
+                     <option value="CSE">CSE</option>
+                     <option value="CSE">IT</option>
+                     <option value="CSE">MECH</option>
+                     <option value="CSE">MCT</option>
+                     <option value="CSE">ECE</option>
+                     <option value="CSE">EEE</option>
+                 </select>
+             </p>
+             <p>
+                 <label for="resume">Choose an file : </label>
+                 <input type="file" id="resume" name="resume">
+             </p>
+             <p>
+                 <label for="comments">Comments : </label><br>
+                 <textarea rows="5" cols="25"></textarea>
+             </p>
+             <p>
+                 <label for="rating">Rating : </label>
+                 <input type="range" id="rating" name="rating" min="0" max="10" step="2">
+             </p>
+             <p>
+                 <label for="website">Website : </label>
+                 <input type="url" id="website" name="website">
+             </p>
+             <p>
+                 <label for="clock">choose an time : </label>
+                 <input type="time" id="clock" name="clock">
+             </p>
+             <p>
+                 <input type="submit" value="Submit Form" name="submit_form">
+             </p>
+ 
+         </form>
+ 
+    </body>
+</html>
