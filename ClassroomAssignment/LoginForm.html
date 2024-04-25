@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Login Form</title>
+    </head>
+    <body>
+           <fieldset style="width: 400;" border="3" >
+            
+            <h1 style=" text-align: center;" >Login Form</h1>
+           
+           <p>
+            <label for="username">Name </label>
+            <input type="text" id="username" name="username" placeholder="FirstName">
+            <input type="text" id="username" name="username" placeholder="LastName">
+            </p>
+            <p>
+             <label for="mail">Email </label>
+            <input type="mail" id="mail" name="mail" placeholder="Email">
+            </p>
+            <p>
+                <label for="phone">Phone Number </label>
+                <input type="text" id="phone" name="phone" placeholder="10-digit number" maxlength="10">
+            </p>
+            <p>
+                <label for="password">Password </label>
+                <input type="password" id="password" name="password" placeholder="password">
+            </p>
+            <p>
+                <label for="gender">Gender </label><br>
+                <input type="radio" id="gender" name="gender" value="gender">Male <br>
+                <input type="radio" id="gender" name="gender" value="gender">Female <br>
+                <input type="radio" id="gender" name="gender" value="gender">Not wish to Disclose<br>
+
+            </p>
+            <p>
+                <label for="address">Address : </label><br>
+                <textarea rows="4" cols="25"></textarea>
+            </p>
+            <p>
+                <label for="dob"> Date Of Birth </label><br>
+                <input type="date" id="dob" name="dob">
+            </p>
+            <p>
+                <label for="time"> Time </label><br>
+                <input type="time" id="time" name="time">
+            </p>
+            <p>
+                <label for="lan">Languages</label><br>
+                <input type="checkbox" id="lan" name="lan" value="lan[]">Tamil <br>
+                <input type="checkbox" id="lan" name="lan" value="lan[]">English <br>
+                <input type="checkbox" id="lan" name="lan" value="lan[]">French<br>
+
+            </p>
+            <p>
+                <label for="int">Field Of Interest</label><br>
+                <select name="interest" multiple size="3">
+                    <option  value="music">Music</option>
+                    <option  value="cycling">Cycling</option>
+                    <option  value="badminton">Badminton</option>
+                </select>
+
+            </p>
+            <p>
+                <label for="photo">Upload Your Photo</label><br>
+                <input type="file" id="photo" name="photo">
+            </p>
+            <p>
+                <input type="submit">
+                <input type="submit" value="reset">
+            </p>
+        </fieldset>
+    
+
+    </body>
+</html>
